@@ -1,6 +1,9 @@
 
+body{
+    background-color: #EDEFEE;
+}
 .nav{
-    background-color: darkslategrey;
+    background-color: #333333;
     border-radius: 10px;
     width: 100%;
     align-items: center;
@@ -39,8 +42,25 @@ display: flex;
     align-items: center;
     margin: 30px 0px;
 }
-img{
+.img1{
 
     width: 400px;
     height: 100px;
+}
+.footer-img{
+    width: 70px;
+    height: 90px;
+}
+.footer-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-copyright{
+    
+    border-top: #333333 2px solid;
+    width: 30%;
+}
+footer{
+    margin: 10px 0px;
 }
