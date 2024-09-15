@@ -80,5 +80,10 @@ p{
     color: white;
 }
 .info{
-    
+display: flex;
+}
+.info div{
+    border: red solid 2px;
+    border-radius: 5px;
+    background-color: #F4E5D6;
 }
