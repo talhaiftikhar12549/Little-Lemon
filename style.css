@@ -60,7 +60,25 @@ display: flex;
     
     border-top: #333333 2px solid;
     width: 30%;
+    text-align: right;
 }
 footer{
     margin: 10px 0px;
+}
+.promotion{
+    height: 200px;
+    width: 100%;
+    border: 2px red solid;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+ h2{
+    color: white;
+    font-weight: 800;
+}
+p{
+    color: white;
+}
+.info{
+    
 }
