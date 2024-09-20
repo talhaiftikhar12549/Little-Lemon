@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../assets/Asset 16@4x.png'
 import menuIcon from "../assets/ham burger menu.svg"
-export default function NavBar()
-{
-    return(
+
+export default function NavBar() {
+    return (
         <header>
             <div className={"flex bg-red py-3 justify-between items-center px-3"}>
                 <div>
