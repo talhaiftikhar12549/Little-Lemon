@@ -1,5 +1,5 @@
 import React from "react"
-
+import greakSalad from "../assets/3b97d1aaeb0c85a7222b2a4f2553d496ed5bd115.jpg"
 export default function MenuList() {
     return (
         <>
@@ -16,8 +16,17 @@ export default function MenuList() {
 
                     </div>
                 </div>
+                {/*Menu Item Section*/}
                 <section>
-                    <div>
+                    <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
+                        <div className={""}>
+                            <p className={"font-bold text-xl py-4"}>Greak Salad</p>
+                            <p>the famous greek salad of crispy lettuee, peppers, olives and our chicago...</p>
+                            <p className={"font-bold py-2"}>$ 12.99</p>
+                        </div>
+                        <div>
+                            <img className={"h-[170px] rounded w-[200px]"} src={greakSalad} />
+                        </div>
 
                     </div>
                     <div>
