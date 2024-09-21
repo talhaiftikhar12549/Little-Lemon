@@ -54,7 +54,7 @@ export default function MenuList() {
                         <div className={""}>
                             <p className={"font-bold text-xl py-4"}>Grilled Fish</p>
                             <p>Our famous grilled fish seasoned with our special 11 herbs </p>
-                            <p className={"font-bold py-2"}>$ 12.99</p>
+                            <p className={"font-bold py-2"}>$ 17.99</p>
                         </div>
                         <div>
                             <img className={"h-[170px] rounded w-[200px]"} src={grilledFish}/>
@@ -63,11 +63,11 @@ export default function MenuList() {
                     {/*Grilled Fish End*/}
 
                     {/*Pasta start*/}
-                    <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
+                    <div className={"border-b-[0px] border-[#F8F8F8] flex justify-between items-center py-4"}>
                         <div className={""}>
                             <p className={"font-bold text-xl py-4"}>Pasta</p>
-                            <p>Our Brushetts is made from grilled      bread that has been smeared with garli...</p>
-                            <p className={"font-bold py-2"}>$ 12.99</p>
+                            <p>Indulge in our selection of handcrafted pasta dishes, made fresh daily and served with your choice of sauces.</p>
+                            <p className={"font-bold py-2"}>$ 10.99</p>
                         </div>
                         <div>
                             <img className={"h-[170px] rounded w-[200px]"} src={pasta}/>
