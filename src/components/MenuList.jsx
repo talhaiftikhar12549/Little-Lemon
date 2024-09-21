@@ -1,5 +1,9 @@
 import React from "react"
 import greakSalad from "../assets/3b97d1aaeb0c85a7222b2a4f2553d496ed5bd115.jpg"
+import brushetta from "../assets/5a56cb0a6cea7dd9e4260ae87b268bd3eee8527d.jpg"
+import grilledFish from "../assets/96de1a8e84d5b60e17f4e8a752e3825e17a622bf.jpg"
+import pasta from "../assets/5b33e9cd6067eb9aa7ce588a24f8a5d73bf37ee0.jpg"
+
 export default function MenuList() {
     return (
         <>
@@ -18,6 +22,7 @@ export default function MenuList() {
                 </div>
                 {/*Menu Item Section*/}
                 <section>
+                    {/*Greek Salad start*/}
                     <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
                         <div className={""}>
                             <p className={"font-bold text-xl py-4"}>Greak Salad</p>
@@ -25,22 +30,51 @@ export default function MenuList() {
                             <p className={"font-bold py-2"}>$ 12.99</p>
                         </div>
                         <div>
-                            <img className={"h-[170px] rounded w-[200px]"} src={greakSalad} />
+                            <img className={"h-[170px] rounded w-[200px]"} src={greakSalad}/>
                         </div>
-
                     </div>
-                    <div>
+                    {/*    Greek Salad End*/}
 
-                    </div>
-                    <div>
 
+                    {/*Bruschetta start*/}
+                    <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
+                        <div className={""}>
+                            <p className={"font-bold text-xl py-4"}>Bruschetta</p>
+                            <p>Our Brushetts is made from grilled      bread that has been smeared with garli...</p>
+                            <p className={"font-bold py-2"}>$ 12.99</p>
+                        </div>
+                        <div>
+                            <img className={"h-[170px] rounded w-[200px]"} src={brushetta}/>
+                        </div>
                     </div>
-                    <div>
+                    {/*Bruschetta End*/}
 
+                    {/*Grilled Fish start*/}
+                    <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
+                        <div className={""}>
+                            <p className={"font-bold text-xl py-4"}>Grilled Fish</p>
+                            <p>Our famous grilled fish seasoned with our special 11 herbs </p>
+                            <p className={"font-bold py-2"}>$ 12.99</p>
+                        </div>
+                        <div>
+                            <img className={"h-[170px] rounded w-[200px]"} src={grilledFish}/>
+                        </div>
                     </div>
-                    <div>
+                    {/*Grilled Fish End*/}
 
+                    {/*Pasta start*/}
+                    <div className={"border-b-[2px] border-[#F8F8F8] flex justify-between items-center py-4"}>
+                        <div className={""}>
+                            <p className={"font-bold text-xl py-4"}>Pasta</p>
+                            <p>Our Brushetts is made from grilled      bread that has been smeared with garli...</p>
+                            <p className={"font-bold py-2"}>$ 12.99</p>
+                        </div>
+                        <div>
+                            <img className={"h-[170px] rounded w-[200px]"} src={pasta}/>
+                        </div>
                     </div>
+                    {/*Pasta End*/}
+
                 </section>
 
             </div>
