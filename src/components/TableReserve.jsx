@@ -20,11 +20,13 @@ export default function TableReserve() {
                     </div>
                 </div>
             </section>
+
+
             <section className={"my-10"}>
                 <h2 className={"text-4xl font-bold py-1 text-center my-4 "}>
                     Reserve Your Table
                 </h2>
-                <div className={""}>
+
                 <form className={"flex justify-center w-100"}>
                     <div className={"w-[35%]"}>
 
@@ -68,7 +70,6 @@ export default function TableReserve() {
 
                 </form>
 
-                </div>
             </section>
         </>
     )
