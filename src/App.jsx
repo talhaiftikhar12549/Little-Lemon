@@ -8,6 +8,7 @@ import FooterBar from "./components/FooterBar"
 import React from "react";
 import TableReserve from "./components/TableReserve";
 import TableSelect from "./components/TableSelect";
+import ConfirmationMessage from "./components/ConfirmationMessage";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
     {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
     {
         path: "/TableSelect",
         element: <TableSelect/>,
+
+    },
+    {
+        path: "/ConfirmationMessage",
+        element: <ConfirmationMessage/>,
 
     },
 ]);

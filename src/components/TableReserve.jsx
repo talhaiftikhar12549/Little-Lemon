@@ -54,12 +54,15 @@ export default function TableReserve() {
 
                         <label className={"text-lg font-semibold"}> Number of Dinner</label><br/>
                         <input type={"number"} className={"bg-[#EBEDEC] w-[100%] py-1 rounded-md"}/>
-                        <NavLink
+                        <div className={"w-[100%] flex justify-center"}>
+                            <NavLink
                             to="/TableSelect"
                             className="font-semibold border border-[#F5CD14] my-10 rounded-xl bg-[#F5CD14] px-24 py-2 text-center inline-block"
                         >
                             Next
                         </NavLink>
+                        </div>
+
 
                     </div>
 
