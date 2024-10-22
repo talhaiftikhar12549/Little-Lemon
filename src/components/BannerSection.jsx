@@ -1,6 +1,6 @@
 import React from "react"
 import bannerImage from "../assets/f64e8d485894f9df206830063adbc400d85de711.jpg"
-
+import MenuList from "./MenuList";
 export default function BannerSection() {
     return (
         <>
@@ -25,6 +25,7 @@ export default function BannerSection() {
                     <img src={bannerImage} className={"h-[80%]  rounded-lg "}/>
                 </div>
             </div>
+            <MenuList/>
         </>
     )
 }
