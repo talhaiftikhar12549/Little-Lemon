@@ -1,9 +1,11 @@
 import React from "react"
 import bannerImage from "../assets/Asset 9@4x.png";
+import { useState } from 'react';
 import {NavLink} from "react-router-dom";
-import grilledFish from "../assets/96de1a8e84d5b60e17f4e8a752e3825e17a622bf.jpg";
+
 
 export default function TableSelect() {
+
     return (
         <>
             <section>
@@ -35,35 +37,36 @@ export default function TableSelect() {
                                     </div>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
                                     </div>
                                 </div>
                                 <div className="flex justify-center itemser">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
                                     </div>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
-                                    </div>
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#495E57]"}>
-                                    </div>
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
-                                    </div>
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
-                                    </div>
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#495E57]"}>
-                                    </div>
-                                </div>
-                                <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
                                     </div>
                                 </div>
                                 <div className="flex justify-center items-center">
@@ -71,11 +74,66 @@ export default function TableSelect() {
                                     </div>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
                                     </div>
                                 </div>
                                 <div className="flex justify-center items-center">
-                                    <div className={"h-[75px] rounded w-[75px] bg-[#D9D9D9]"}>
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
+                                    </div>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <div className={"h-[75px] rounded w-[75px] bg-[#495E57]"}>
+                                    </div>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
+                                    </div>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <div className={"h-[75px] rounded w-[75px] bg-[#495E57]"}>
+                                    </div>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
+                                    </div>
+                                </div>
+                                <div className="flex justify-center items-center">
+                                    <div
+                                        className="h-[75px] rounded w-[75px]"
+                                        style={{ backgroundColor: '#D9D9D9' }}
+                                        onClick={(e) => {
+                                            e.target.style.backgroundColor =
+                                                e.target.style.backgroundColor === 'rgb(217, 217, 217)' ? '#F5CD14' : '#D9D9D9';
+                                        }}
+                                    >
                                     </div>
                                 </div>
                             </div>
