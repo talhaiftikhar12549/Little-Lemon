@@ -1,6 +1,7 @@
 import React from "react"
 import bannerImage from "../assets/f64e8d485894f9df206830063adbc400d85de711.jpg"
 import MenuList from "./MenuList";
+import {NavLink} from "react-router-dom";
 export default function BannerSection() {
     return (
         <>
@@ -14,8 +15,8 @@ export default function BannerSection() {
                         modern twist</p>
                     <div>
                         <button
-                            className={"font-semibold border border-[#F5CD14] my-8 rounded-lg bg-[#F5CD14] px-12 py-2"}>Reserve
-                            a Table
+                            className={"font-semibold border border-[#F5CD14] my-8 rounded-lg bg-[#F5CD14] px-12 py-2"}>
+                            <NavLink to={"/TableReserve"} className={"w-[100%] h-[100%]"}> Reserve  a Table</NavLink>
                         </button>
                     </div>
 
